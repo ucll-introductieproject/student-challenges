@@ -65,8 +65,9 @@ $ python -m http.server
 
 ## Binnenhalen nieuwe challenges
 
-Doorheen het semester zullen nieuwe challenges gepubliceerd worden. Om deze in jouw repository te synchroniseren voer je volgend commando uit:
+Doorheen het semester zullen nieuwe challenges gepubliceerd worden. Om deze in jouw repository te synchroniseren voer je volgend commando's uit:
 
 ```bash
 $ git pull upstream master
+$ git push -u origin master
 ```
