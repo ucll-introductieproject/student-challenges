@@ -69,5 +69,5 @@ Doorheen het semester zullen nieuwe challenges gepubliceerd worden. Om deze in j
 
 ```bash
 $ git pull upstream master
-$ git push -u origin master
+$ git push
 ```
