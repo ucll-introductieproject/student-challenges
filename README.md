@@ -9,8 +9,9 @@
 
 Voor vervolgens de volgende commando's in.
 
-**MERK OP: Enkel de regels die beginnen op `$` moet je zelf ingeven.
-De `$` zelf hoef je niet in te geven, die wijst op een console commando!**
+**MERK OP: Enkel de regels die beginnen op `$` moet je zelf ingeven.**
+
+**De `$` zelf hoef je niet in te geven, die wijst op een console commando!**
 
 ```bash
 #<URL> = de link je persoonlijke GitHub classroom, verkregen door het accepteren van de Classroom Assignment
