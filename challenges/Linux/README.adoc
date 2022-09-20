@@ -1,4 +1,4 @@
-= TEST 1
+= Challenge
 
 Maak op je virtueel Linux machine een folder TEST1 aan en ga in deze folder staan om aan de opgaven te beginnen. 
 Maak voor iedere opgave een bestand opgaveX.sh aan en zet daar lijn per lijn de verschillende commando's in die je moet uitvoeren om aan de opgave te voldoen. 
