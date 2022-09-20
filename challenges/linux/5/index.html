@@ -5,24 +5,66 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
-<title>Challenge: More Advanced Searching</title>
+<meta name="author" content="In de `source` directory staan bestanden.">
+<title>Opgave 5</title>
 <link rel="stylesheet" href="/static/stylesheets/styles.css">
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
-<h1>Challenge: More Advanced Searching</h1>
+<h1>Opgave 5</h1>
+<div class="details">
+<span id="author" class="author">In de `source` directory staan bestanden.</span><br>
+<span id="revdate">Gebruik commando's om deze allemaal naar een nieuwe directory `target` te kopiëren.</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel2">
+<li><a href="#_voorbeeld">Voorbeeld</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
+<div class="sect2">
+<h3 id="_voorbeeld">Voorbeeld</h3>
 <div class="paragraph">
-<p>Op Google kan je zoeken naar afbeeldingen, maar kan je ook een afbeelding ingeven en zoeken waar die afbeelding voorkomt op het internet?
-Ja dat kan, we noemen dit "reverse image searching". Een van de betere zoekmachines hiervoor is Yandex.</p>
+<p>Stel dat deze oefening initieel de volgende directorystructuur heeft:</p>
 </div>
-<div class="paragraph">
-<p>Waar werd deze foto genomen? M.a.w. waar staat de webcam (antwoord in de vorm van 2 woorden)?</p>
-</div>
-<div class="imageblock text-center">
+<div class="listingblock">
 <div class="content">
-<img src="image.jpg" alt="image">
+<pre class="rouge highlight"><code>copy
+  |
+  +- source
+       |
+       +-- a.txt
+       +-- b.txt
+       +-- c.txt
+       +-- d.txt
+       +-- e.txt</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Na het uitvoeren van je commando&#8217;s moet de nieuwe toestand zijn:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>copy
+  |
+  +- source
+  |    |
+  |    +-- a.txt
+  |    +-- b.txt
+  |    +-- c.txt
+  |    +-- d.txt
+  |    +-- e.txt
+  |
+  +- target
+       |
+       +-- a.txt
+       +-- b.txt
+       +-- c.txt
+       +-- d.txt
+       +-- e.txt</code></pre>
+</div>
 </div>
 </div>
 </div>
