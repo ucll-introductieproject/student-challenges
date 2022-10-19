@@ -63,9 +63,11 @@ $ python -m http.server
 - Surf in de browser nu naar http://localhost:8000/overview.html. Hier krijg je een overzicht van alle challenges.
 - De eerste challenge waar je aan moet beginnen is "Git" - "Basics". Volg de instructies die hier beschreven staan.
 
-## Binnenhalen nieuwe challenges
+## Updaten challenges
 
-Doorheen het semester zullen nieuwe challenges gepubliceerd worden. Om deze in jouw repository te synchroniseren voer je volgend commando's uit:
+Doorheen het semester zullen nieuwe challenges gepubliceerd worden. Om deze in jouw repository te synchroniseren voer je onderstaande commando's uit.
+
+**Belangrijk: voordat je dit doet zorg je best dat je geen uitgaande wijzigingen hebt, om merge conflicten te voorkomen. Doe dus eerst een git commit en git push van je meest recente wijzingen.**
 
 ```bash
 $ git pull upstream master
